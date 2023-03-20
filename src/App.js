@@ -1,11 +1,5 @@
 import { useEffect } from 'react'
-// import logo from './logo.svg';
 import './App.css';
-// import { Helmet } from 'react-helmet';
-
-// demo
-// ID
-// 527637292825855
 
 function App() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
