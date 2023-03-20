@@ -14,6 +14,7 @@ function App() {
         autoConfig: true,
         debug: true,
       });
+      console.log(ReactPixel);
     ReactPixel.pageView();
     ReactPixel.track("ViewContent")
   }, [])
