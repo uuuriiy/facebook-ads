@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import { Helmet } from 'react-helmet';
+// import { Helmet } from 'react-helmet';
 
 // demo
 // ID
@@ -11,7 +11,7 @@ function App() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect( async() => {
     const { default: ReactPixel } = await import('react-facebook-pixel');
-    ReactPixel.init('527637292825855', null, {
+    ReactPixel.init('1273202096933750', null, {
         autoConfig: true,
         debug: true,
       });
