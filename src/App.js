@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import ReactPixel from 'react-facebook-pixel';
 
 function App() {
   return (
