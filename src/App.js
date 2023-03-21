@@ -38,10 +38,22 @@ function App() {
     .then(data => data.json())
     .then(data => console.log(data))
 
+    function getMachineId() {
+    
+      let machineId = localStorage.getItem('MachineId');
+      
+      if (!machineId) {
+        machineId = new DeviceUUID().get()
+        localStorage.setItem('MachineId', machineId);
+      }
+  
+      return machineId;
+  }
   return (
     <div className="App">
       <header className="App-header">
       <button>Event</button>
+      {getMachineId()}
       </header>
     </div>
   );
